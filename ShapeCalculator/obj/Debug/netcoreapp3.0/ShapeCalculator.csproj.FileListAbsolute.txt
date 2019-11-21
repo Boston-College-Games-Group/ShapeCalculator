@@ -1,0 +1,11 @@
+C:\Users\lgksc\source\repos\Boston-College-Games-Group\ShapeCalculator\ShapeCalculator\bin\Debug\netcoreapp3.0\ShapeCalculator.exe
+C:\Users\lgksc\source\repos\Boston-College-Games-Group\ShapeCalculator\ShapeCalculator\bin\Debug\netcoreapp3.0\ShapeCalculator.deps.json
+C:\Users\lgksc\source\repos\Boston-College-Games-Group\ShapeCalculator\ShapeCalculator\bin\Debug\netcoreapp3.0\ShapeCalculator.runtimeconfig.json
+C:\Users\lgksc\source\repos\Boston-College-Games-Group\ShapeCalculator\ShapeCalculator\bin\Debug\netcoreapp3.0\ShapeCalculator.runtimeconfig.dev.json
+C:\Users\lgksc\source\repos\Boston-College-Games-Group\ShapeCalculator\ShapeCalculator\bin\Debug\netcoreapp3.0\ShapeCalculator.dll
+C:\Users\lgksc\source\repos\Boston-College-Games-Group\ShapeCalculator\ShapeCalculator\bin\Debug\netcoreapp3.0\ShapeCalculator.pdb
+C:\Users\lgksc\source\repos\Boston-College-Games-Group\ShapeCalculator\ShapeCalculator\obj\Debug\netcoreapp3.0\ShapeCalculator.csprojAssemblyReference.cache
+C:\Users\lgksc\source\repos\Boston-College-Games-Group\ShapeCalculator\ShapeCalculator\obj\Debug\netcoreapp3.0\ShapeCalculator.AssemblyInfoInputs.cache
+C:\Users\lgksc\source\repos\Boston-College-Games-Group\ShapeCalculator\ShapeCalculator\obj\Debug\netcoreapp3.0\ShapeCalculator.AssemblyInfo.cs
+C:\Users\lgksc\source\repos\Boston-College-Games-Group\ShapeCalculator\ShapeCalculator\obj\Debug\netcoreapp3.0\ShapeCalculator.dll
+C:\Users\lgksc\source\repos\Boston-College-Games-Group\ShapeCalculator\ShapeCalculator\obj\Debug\netcoreapp3.0\ShapeCalculator.pdb

@@ -6,7 +6,10 @@ namespace ShapeCalculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ApplicationSettings.SetConsoleFont();
+            ApplicationSettings.SetTitle("Shape calculator");
+
+            Console.WriteLine("TEST");
         }
     }
 }
