@@ -85,5 +85,10 @@ namespace ShapeCalculator
         {
             Console.Title = title;
         }
+
+        public static void SetFontColour(ConsoleColor colour)
+        {
+            Console.ForegroundColor = colour;
+        }
     }
 }

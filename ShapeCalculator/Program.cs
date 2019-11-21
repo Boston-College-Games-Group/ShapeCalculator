@@ -8,6 +8,7 @@ namespace ShapeCalculator
         {
             ApplicationSettings.SetConsoleFont();
             ApplicationSettings.SetTitle("Shape calculator");
+            ApplicationSettings.SetFontColour(ConsoleColor.Cyan);
 
             Console.WriteLine("TEST");
         }
