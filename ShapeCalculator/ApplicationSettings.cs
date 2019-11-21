@@ -56,7 +56,7 @@ namespace ShapeCalculator
             uint dwFontNum
             );
 
-        public static void SetConsoleFont(string fontName = "Comic Sans MS")
+        public static void SetConsoleFont(string fontName)
         {
             unsafe
             {
@@ -74,7 +74,7 @@ namespace ShapeCalculator
                     Marshal.Copy(fontName.ToCharArray(), 0, ptr, fontName.Length);
 
                     // Get some settings from current font.
-                    newInfo.dwFontSize = new COORD(20, 20);
+                    newInfo.dwFontSize = new COORD(info.dwFontSize.X, info.dwFontSize.Y); //Use info.dwFontSize.X, info.dwFontSize.Y for default font size
                     newInfo.FontWeight = info.FontWeight;
                     SetCurrentConsoleFontEx(hnd, false, ref newInfo);
                 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace ShapeCalculator
 {
@@ -6,11 +7,8 @@ namespace ShapeCalculator
     {
         static void Main(string[] args)
         {
-            ApplicationSettings.SetConsoleFont();
-            ApplicationSettings.SetTitle("Shape calculator");
-            ApplicationSettings.SetFontColour(ConsoleColor.Cyan);
-
-            Console.WriteLine("TEST");
+            ApplicationSettings.SetTitle("Shape calculator"); //Sets the title to be used by the application
+            ApplicationSettings.SetFontColour(ConsoleColor.Cyan); //Sets the colour of the font that is used
         }
     }
 }
