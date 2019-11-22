@@ -29,11 +29,8 @@ namespace ShapeCalculator
             internal short X;
             internal short Y;
 
-            internal COORD(short x, short y)
-            {
-                X = x;
-                Y = y;
-            }
+            internal COORD(short x, short y) { X = x; Y = y; }
+
         }
         const int STD_OUTPUT_HANDLE = -11;
         const int TMPF_TRUETYPE = 4;
@@ -41,20 +38,14 @@ namespace ShapeCalculator
         static IntPtr INVALID_HANDLE_VALUE = new IntPtr(-1);
 
         [DllImport("kernel32.dll", SetLastError = true)]
-        static extern bool SetCurrentConsoleFontEx(
-            IntPtr consoleOutput,
-            bool maximumWindow,
-            ref CONSOLE_FONT_INFO_EX consoleCurrentFontEx);
+        static extern bool SetCurrentConsoleFontEx(IntPtr consoleOutput, bool maximumWindow, ref CONSOLE_FONT_INFO_EX consoleCurrentFontEx);
 
         [DllImport("kernel32.dll", SetLastError = true)]
         static extern IntPtr GetStdHandle(int dwType);
 
 
         [DllImport("kernel32.dll", SetLastError = true)]
-        static extern int SetConsoleFont(
-            IntPtr hOut,
-            uint dwFontNum
-            );
+        static extern int SetConsoleFont(IntPtr hOut, uint dwFontNum);
 
         public static void SetConsoleFont(string fontName)
         {

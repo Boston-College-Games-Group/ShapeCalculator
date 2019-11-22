@@ -28,10 +28,7 @@ namespace ShapeCalculator
 
         public static void PrintFileToConsole()
         {
-            foreach (string line in lines)
-            {
-                Console.WriteLine(line);
-            }
+            foreach (string line in lines) Console.WriteLine(line);
         }
     }
 }
